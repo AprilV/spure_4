@@ -22,3 +22,7 @@
 
 # Ignore Spring files.
 /spring/*.pid
+
+# Igmore .DS_Store
+.DS_Store
+*/.DS_Store
