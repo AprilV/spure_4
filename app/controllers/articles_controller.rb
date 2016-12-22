@@ -47,7 +47,7 @@ class ArticlesController < ApplicationController
 private
 
     def article_params
-      params.require(:article).permit(:time,:content,:title,:type,:tag,:user_id)
+      params.require(:article).permit(:time,:content,:title,:tag,:type,:user_id)
     end
     def correct_user
       @article = current_user.articles.find_by(id: params[:id])
