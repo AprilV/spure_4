@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  time: 2016-12-22 19:40:03
+  province: MyString
+  city: MyString
+  shop_name: MyString
+  concrete_add: MyString
+  sneaker_type_id: 1
+  original_retail: 1
+
+two:
+  time: 2016-12-22 19:40:03
+  province: MyString
+  city: MyString
+  shop_name: MyString
+  concrete_add: MyString
+  sneaker_type_id: 1
+  original_retail: 1

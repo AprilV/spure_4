@@ -2,9 +2,6 @@ class WishlistsController < ApplicationController
   before_action :logged_in_user, only: [:create, :destroy]
   before_action :correct_user,   only: :destroy
 
-
-
-
   def create
     @wishlist = current_user.wishlists.build(wishlist_params)
     if @wishlist.save
