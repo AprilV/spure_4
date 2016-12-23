@@ -1,6 +1,6 @@
 class Wishlist < ApplicationRecord
 	belongs_to :user
-	validates :user_id, precense: true
-	validates :sneaker_size, precense: true
-	validates :sneaker_type_id, precense: true
+	validates :user_id, presence: true
+	validates :sneaker_size, presence: true
+	validates :sneaker_type_id, presence: true
 end
