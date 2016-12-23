@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161222115430) do
+ActiveRecord::Schema.define(version: 20161223062543) do
 
   create_table "articles", force: :cascade do |t|
     t.datetime "time"
@@ -33,6 +33,18 @@ ActiveRecord::Schema.define(version: 20161222115430) do
     t.string   "concrete_add"
     t.integer  "sneaker_type_id"
     t.integer  "original_retail"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  create_table "sneakers", force: :cascade do |t|
+    t.string   "image"
+    t.integer  "max_size"
+    t.integer  "min_size"
+    t.integer  "history_high"
+    t.integer  "history_low"
+    t.integer  "sneaker_type_id"
+    t.string   "sneaker_name"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end

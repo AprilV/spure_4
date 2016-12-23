@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  image: MyString
+  max_size: 1
+  min_size: 1
+  history_high: 1
+  history_low: 1
+  sneaker_type_id: 1
+  sneaker_name: MyString
+
+two:
+  image: MyString
+  max_size: 1
+  min_size: 1
+  history_high: 1
+  history_low: 1
+  sneaker_type_id: 1
+  sneaker_name: MyString
